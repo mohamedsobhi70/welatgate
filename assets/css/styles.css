@@ -1,0 +1,44 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #042653;
+    --bs-btn-border-color: #042653;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #febf00;
+    --bs-btn-hover-border-color: #febf00;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+ 
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+.text-main {
+    color: #042653;
+}
+
+header {
+    z-index: 120;
+}
+
+.hero-section {
+    background-image: url("../images/4.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+.hero-section h1 {
+    font-size: 45px;
+}
+
+.plans-section{
+background:#ECF0EB ;
+}
