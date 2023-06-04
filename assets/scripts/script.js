@@ -20,3 +20,13 @@ if ($('.gallery-item').length) {
         }
     });
 }
+
+
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 1000) {
+        this.document.querySelector(".back-totop").classList.remove("d-none");
+    }
+    else {
+        this.document.querySelector(".back-totop").classList.add("d-none");
+    }
+})
