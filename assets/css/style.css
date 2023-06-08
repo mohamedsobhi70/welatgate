@@ -32,6 +32,7 @@ body {
   opacity: 1;
   overflow-x: hidden;
   overflow-y: auto;
+  transition: all 0.5s ease;
 }
 
 .section.back {
@@ -131,7 +132,6 @@ body {
 }
 
 .wel-container {
-  max-width: 1100px;
   margin: auto;
   width: 100%;
 }
@@ -819,8 +819,8 @@ body.dark .aside .wel-nav li a {
 }
 
 .blog .blog-item {
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
   margin-bottom: 30px;
 }
 
@@ -1226,4 +1226,10 @@ body.dark .aside .wel-nav li a.active {
 
 .portfolio .portfolio-item .portfolio-item-inner {
   border-color: #042653dc;
+}
+
+.mob-logo {
+  z-index: 9;
+  top: 25px;
+  right: 25px
 }

@@ -32,6 +32,7 @@ body {
   opacity: 1;
   overflow-x: hidden;
   overflow-y: auto;
+  transition: all 0.5s ease;
 }
 
 .section.back {
@@ -131,7 +132,6 @@ body {
 }
 
 .wel-container {
-  max-width: 1100px;
   margin: auto;
   width: 100%;
 }
@@ -401,6 +401,7 @@ body.dark .aside .wel-nav li a {
   opacity: 0.5;
 
 }
+
 /* home section end  */
 
 /* about section  */
@@ -1226,4 +1227,9 @@ body.dark .aside .wel-nav li a.active {
 
 .portfolio .portfolio-item .portfolio-item-inner {
   border-color: #042653dc;
+}
+.mob-logo {
+  z-index: 9;
+  top: 25px;
+  left: 25px
 }

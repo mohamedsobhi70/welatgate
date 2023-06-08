@@ -105,3 +105,9 @@ function asideSectionTogglerBtn() {
     allSection[i].classList.toggle("open");
   }
 }
+
+let swiper = new Swiper(".slider-intro", {
+  spaceBetween: 30,
+  loop: true,
+  slidesPerView: 1,
+});
