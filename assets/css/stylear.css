@@ -1021,6 +1021,7 @@ body.dark .aside .wel-nav li a {
   cursor: pointer;
   display: block;
   padding: 30px 0;
+  max-width: 100%;
 }
 
 .lightbox .lightbox-content .lightbox-caption {
